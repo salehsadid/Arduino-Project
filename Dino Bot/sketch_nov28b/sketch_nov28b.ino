@@ -1,5 +1,5 @@
 //Project : Dino Bot
-//Author : Saleh Sadid Mir , Tahmid Hossain Chowdhury Mahin, Eftesamul Hasan Nouman
+//Author : Saleh Sadid Mir , Tahmid Hossain Chowdhury Mahin
 
 #include<Servo.h>
 Servo servo1;                            
