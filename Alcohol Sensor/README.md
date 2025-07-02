@@ -98,7 +98,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Keywords
 #arduino #mq3 #alcohol_sensor #breathalyzer #sensor_interfacing #diy #safety
 
----
-
-## Arduino Code
-
