@@ -1,24 +1,27 @@
+//Project Title:Alcohol Detection with MQ-3 Sensor
+//Author: Saleh Sadid Mir, CSE, KUET
 
-#define Sober 120   // Define max value that we consider sober
-#define Drunk 400   // Define min value that we consider drunk
+
+#define Sober 120   // max value that we consider sober
+#define Drunk 400   // min value that we consider drunk
 
 #define MQ3pin 0
 
-float sensorValue;  //variable to store sensor value
+float sensorValue;  
 
 void setup() {
-	Serial.begin(9600); // sets the serial port to 9600
+	Serial.begin(9600); 
 	Serial.println("MQ3 warming up!");
-	delay(20000); // allow the MQ3 to warm up
+	delay(20000);
 }
 
 void loop() {
-	sensorValue = analogRead(MQ3pin); // read analog input pin 0
+	sensorValue = analogRead(MQ3pin); 
 
 	Serial.print("Sensor Value: ");
 	Serial.print(sensorValue);
-	
-	// Determine the status
+
+
 	if (sensorValue < Sober) {
 		Serial.println("  |  Status: Stone Cold Sober");
 	} else if (sensorValue >= Sober && sensorValue < Drunk) {
@@ -27,5 +30,5 @@ void loop() {
 		Serial.println("  |  Status: DRUNK");
 	}
 	
-	delay(2000); // wait 2s for next reading
+	delay(2000); 
 }

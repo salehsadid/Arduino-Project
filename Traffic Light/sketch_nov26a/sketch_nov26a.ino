@@ -1,5 +1,6 @@
 //Peoject: Traffic Light Control Based on Distance
-// Author: Saleh Sadid Mir
+//Author: Saleh Sadid Mir, CSE, KUET
+
 
 
 const int trigPin = 7; 
