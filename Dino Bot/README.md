@@ -64,8 +64,8 @@ A great introduction to automation, sensor integration, and actuator control usi
 ---
 
 ## Demonstration Behavior
-- Bot detects cacti and makes the dinosaur jump.
-- Sensor readings visible in Serial Monitor.
+- The bot detects cacti and makes the dinosaur jump.
+- Sensor readings are visible in the Serial Monitor.
 - Consistent performance after calibration.
 
 ---
@@ -94,7 +94,7 @@ You are free to use, modify, and distribute this project for personal or commerc
 
 ## Author
 Saleh Sadid Mir, Tahmid Hossain Chowdhury Mahin, Eftesamul Hasan Nouman  
-Dept. of Computer Science and Engineering, KUET
+Dept of Computer Science and Engineering, KUET
 
 ---
 
