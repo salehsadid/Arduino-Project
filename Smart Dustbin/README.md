@@ -94,7 +94,7 @@ You are free to use, modify, and distribute this project for personal or commerc
 
 ## Author
 Saleh Sadid Mir  
-Dept. of Computer Science and Engineering, KUET
+Dept of Computer Science and Engineering, KUET
 
 ---
 
@@ -106,7 +106,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Keywords
 #arduino #ultrasonic #servo #smart_dustbin #automation #touchless #waste_management
 
----
-
-## Arduino Code
 
