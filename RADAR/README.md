@@ -109,6 +109,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Arduino Code
 
+```
 #include <Servo.h>
 
 const int trigPin = 10;
@@ -155,12 +156,12 @@ duration = pulseIn(echoPin, HIGH);
 distance = duration * 0.034 / 2;
 return distance;
 }
-
+```
 
 ---
 
 ## Processing Visualization Code
-
+```
 import processing.serial.*;
 
 Serial myPort;
@@ -249,4 +250,4 @@ text("Out of Range", 20, 90);
 text("In Range", 20, 90);
 }
 }
-
+```
