@@ -45,46 +45,34 @@ This is a great beginner-to-intermediate level project to learn about orientatio
 ---
 
 ## How It Works
-The MPU6050 sensor measures Y-axis acceleration.
-
-The Arduino reads and maps this value to a corresponding LED index.
-
-An LED lights up based on the tilt direction and magnitude.
-
-Real-time Y-axis readings are printed to the Serial Monitor (at 38400 baud).
+- The MPU6050 sensor measures Y-axis acceleration.
+- The Arduino reads and maps this value to a corresponding LED index.
+- An LED lights up based on the tilt direction and magnitude.
+- Real-time Y-axis readings are printed to the Serial Monitor (at 38400 baud).
 
 ---
 
 ## Setup Instructions
-Assemble the circuit as per the connection table above.
-
-Upload the Arduino code using the Arduino IDE.
-
-Open the Serial Monitor (38400 baud) to view tilt data.
-
-Tilt the breadboard and observe the LED shifting accordingly.
+- Assemble the circuit as per the connection table above.
+- Upload the Arduino code using the Arduino IDE.
+- Open the Serial Monitor (38400 baud) to view tilt data.
+- Tilt the breadboard and observe the LED shifting accordingly.
 
 ---
 
 ## Demonstration Behavior
-When level, a central LED lights up.
-
-Tilting left or right shifts the LED glow accordingly.
-
-Serial output displays tilt readings continuously.
+- When level, a central LED lights up.
+- Tilting left or right shifts the LED glow accordingly.
+- Serial output displays tilt readings continuously.
 
 ---
 
 ## Potential Improvements
-Add RGB LEDs to indicate intensity with colors.
-
-Include a buzzer for threshold alerts or level confirmation.
-
-Add an OLED or LCD to show angle in degrees.
-
-Apply Kalman filter or smoothing algorithms.
-
-Make it portable using a battery pack.
+- Add RGB LEDs to indicate intensity with colors.
+- Include a buzzer for threshold alerts or level confirmation.
+- Add an OLED or LCD to show angle in degrees.
+- Apply Kalman filter or smoothing algorithms.
+- Make it portable using a battery pack.
 
 ---
 
@@ -104,8 +92,8 @@ You are free to use, modify, and distribute this project for personal or commerc
 ---
 
 ## Author
-Your Name
-Optional: Add LinkedIn/GitHub profile
+Saleh Sadid Mir 
+Dept. of Computer Science and Engineering , KUET
 
 ---
 
